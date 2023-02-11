@@ -70,6 +70,7 @@ body {
 }
 
 .img-footer-link {
+    user-select: none;
 	background-image: url("https://nurio.me/assets/img/mal-icon-b.png");
 	background-size: 60px 60px;
 	margin-top: 4.6px;

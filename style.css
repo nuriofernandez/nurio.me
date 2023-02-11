@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+}
+
+.topbar {
+    background-image: url("background.png");
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    box-shadow: #4c4c4c 0px 0px 15px 0px;
+}
+
+.legend {
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    margin-right: 10rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 6px #101010;
+    color: yellow;
+}
+
+.legend p {
+    margin: 0;
+}
+.legend .simple {
+    font-size: 70px;
+}
+
+.legend .form {
+    font-size: 43px;
+}
+
+.legend .sophi {
+    font-size: 60px;
+}
+
+.introblock {
+    margin: 5rem 10rem;
+}
+
+.footer-link-area {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.footer-link-area a {
+    color: black;
+}
+
+.footer-link-area a:hover {
+    color: rgb(77, 77, 77);
+}
+
+.img-footer-link:hover {
+    filter: invert(0.7);
+}
+
+.footer-link {
+    margin: 1rem;
+    width: 60px;
+}
+
+.img-footer-link {
+	background-image: url("https://nurio.me/assets/img/mal-icon-b.png");
+	background-size: 60px 60px;
+	margin-top: 4.6px;
+	filter: invert(1);
+}
+
+
+.introduction {
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #1010106e;
+    color: black;
+}
+
+.introduction p {
+    margin: 0;
+}
+.introduction .name {
+    font-size: 50px;
+}
+
+.introduction .description {
+    font-size: 25px;
+}

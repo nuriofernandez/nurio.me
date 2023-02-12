@@ -7,7 +7,7 @@ body {
 .topbar {
     background-image: url("background.jpg");
     background-size: cover;
-    height: 95vh;
+    height: 58rem;
     width: 100%;
 
     display: flex;

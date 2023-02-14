@@ -47,36 +47,6 @@ body {
     padding: 5rem 10rem;
 }
 
-@media only screen and (max-width: 768px) {
-    .topbar {
-        height: 33rem !important;
-    }
-    .legend .simple {
-        font-size: 2rem;
-    }
-    
-    .legend .form {
-        font-size: 1.1rem;
-    }
-    
-    .legend .sophi {
-        font-size: 1.8rem;
-    }
-
-    .introblock {
-        padding: 5rem 2rem;
-    }
-    .introduction .name {
-        margin-bottom: 1rem;
-    }
-    .introduction .description {
-        font-size: 23px !important;
-    }
-    .footer-link {
-        display: contents;
-    }
-}
-
 .footer-link-area {
     margin-top: 1rem;
     display: flex;
@@ -127,4 +97,35 @@ body {
 
 .introduction .description {
     font-size: 25px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .topbar {
+        height: 33rem !important;
+    }
+    .legend .simple {
+        font-size: 2rem;
+    }
+    
+    .legend .form {
+        font-size: 1.1rem;
+    }
+    
+    .legend .sophi {
+        font-size: 1.8rem;
+    }
+
+    .introblock {
+        padding: 5rem 2rem;
+    }
+    .introduction .name {
+        margin-bottom: 1rem;
+    }
+    .introduction .description {
+        font-size: 23px !important;
+    }
+    .footer-link {
+        display: contents;
+    }
 }

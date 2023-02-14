@@ -48,6 +48,21 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .topbar {
+        height: 33rem !important;
+    }
+    .legend .simple {
+        font-size: 2rem;
+    }
+    
+    .legend .form {
+        font-size: 1.1rem;
+    }
+    
+    .legend .sophi {
+        font-size: 1.8rem;
+    }
+
     .introblock {
         padding: 5rem 2rem;
     }

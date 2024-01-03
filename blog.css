@@ -41,11 +41,27 @@ img {
     max-width: 80vw;
 }
 
+.iframe {
+    padding: 2rem 0;
+    max-width: 80vw;
+}
+
+.iframe iframe {
+    width: 50vw;
+    height: calc(50vw * 9 / 16);
+    max-width: 80%;
+}
+
 @media only screen and (max-width: 768px) {
     .gohomeblock {
         padding: 2rem 2rem;
     }
     .contentblock {
         padding: 3rem 2rem;
+    }
+    .iframe iframe {
+        width: 90vw;
+        height: calc(90vw * 9 / 16);
+        max-width: 90%;
     }
 }

@@ -1,0 +1,46 @@
+@import url('style.css');
+
+.topbar {
+    background-image: url("https://i.imgur.com/elbxgYM.png");
+    background-size: cover;
+    background-position: center;
+
+    height: 16rem;
+    width: 100%;
+
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    box-shadow: #4c4c4c 0px 0px 15px 0px;
+}
+
+.gohomeblock {
+    padding: 2rem 10rem;
+}
+.gohomeblock a {
+    text-decoration: none;
+    color: #101010;
+}
+.gohomeblock a:hover {
+    text-decoration: underline;
+    color: #101010;
+}
+
+.contentblock {
+    padding: 3rem 10rem;
+}
+
+.contentblock .title {
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .gohomeblock {
+        padding: 2rem 2rem;
+    }
+    .contentblock {
+        padding: 3rem 2rem;
+    }
+}

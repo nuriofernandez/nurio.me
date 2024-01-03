@@ -86,7 +86,7 @@
 
 @media only screen and (max-width: 768px) {
     .topbar {
-        height: 33rem !important;
+        height: 58vh !important;
     }
     .legend .simple {
         font-size: 2rem;

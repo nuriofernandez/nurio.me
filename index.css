@@ -3,6 +3,8 @@
 .topbar {
     background-image: url("https://i.imgur.com/quZiHmj.jpg");
     background-size: cover;
+    background-position-y: center;
+
     height: 95vh;
     width: 100%;
 

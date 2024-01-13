@@ -1,4 +1,4 @@
-a, p, img, video {
+a, p, img, video, .topbar {
     animation: zoom-in-zoom-out .5s infinite linear;
 }
 

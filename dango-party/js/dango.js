@@ -1,6 +1,5 @@
 (() => {
-    //const domain = `${window.location.protocol}//${window.location.hostname}`;
-    const domain = `/Users/nurio/Code/Nurio/nurio.me`;
+    const domain = `${window.location.protocol}//${window.location.hostname}`;
     const dangoFallingElementId = "dango-effect";
 
     /**

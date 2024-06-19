@@ -17,4 +17,4 @@ Personal website using plain HTML/CSS. No frameworks, no dependencies, no pain.
 
 With the script [`dango.js`](https://github.com/nuriofernandez/nurio.me/blob/master/dango-party/js/dango.js) the page plays the best song of the world and shows the best thing in the world falling around when someone types `dango` anywhere in the website.
 
-![Dango daikazoku preview](https://i.imgur.com/CZf7zJC.gif)
+![Dango daikazoku preview](https://github.com/nuriofernandez/nurio.me/assets/8858331/e18c37f2-2ee8-4948-8d26-cb72d27f0924)

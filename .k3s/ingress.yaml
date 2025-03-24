@@ -4,7 +4,6 @@ metadata:
   name: nurio-me-ingress
   namespace: nurio-me
   annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: web
     cert-manager.io/cluster-issuer: letsencrypt-cert-manager
 spec:
   rules:

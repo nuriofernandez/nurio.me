@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nurio-me
+  namespace: nurio-me
+  labels:
+    app: nurio-me
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nurio-me
+  template:
+    metadata:
+      labels:
+        app: nurio-me
+    spec:
+      containers:
+        - name: nurio-me
+          image: nginx:latest # Will be replaced by CI/CD
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              memory: "50Mi"
+              cpu: "50m"
+            requests:
+              memory: "50Mi"
+              cpu: "50m"

@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nurio-me-ingress
+  namespace: nurio-me
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+    cert-manager.io/cluster-issuer: letsencrypt-cert-manager
+spec:
+  rules:
+    - host: nurio.me
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: nurio-me-service
+                port:
+                  number: 80
+  tls:
+    - hosts:
+        - nurio.me
+      secretName: nurio-me-tls

@@ -7,7 +7,7 @@ Personal website using plain HTML/CSS. No frameworks, no dependencies, no pain.
 
 # Main page
 
-![Main page](https://i.imgur.com/X1NxmM4.jpeg)
+![Main page](https://i.imgur.com/F3Y0hCf.png)
 
 # Blog pages
 

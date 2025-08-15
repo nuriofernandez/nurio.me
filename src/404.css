@@ -1,0 +1,83 @@
+@import url('style.css');
+
+body {
+    background-color: #464646;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.profilepic {
+    height: 27rem;
+    width: auto;
+    border-radius: 40px;
+    margin-right: 2rem;
+}
+
+.name {
+    align-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(49, 49, 49);
+    text-decoration: underline;
+}
+
+
+.topbar {
+    height: 28rem;
+    margin: auto;
+    color: white;
+
+    background-color: #464646;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.topbar-center {
+    display: flex;
+    width: 58rem;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .topbar {
+        height: unset !important;
+        min-height: 60rem !important;
+    }
+    .topbar-center {
+        flex-direction: column; /* stack vertically */
+        align-items: center;    /* center items horizontally */
+        text-align: center;     /* center text for better look */
+    }
+
+    .profilepic {
+        margin-right: 0;  /* remove side margin */
+        margin-bottom: 1rem; /* add space below the image */
+        height: auto; /* optional: make it scale naturally */
+        max-width: 80%; /* avoid overflowing screen */
+    }
+
+    .name {
+        align-content: center;
+    }
+    .topbar-center {
+        display: flex;
+        width: 90vw;
+    }
+    .section {
+        width: unset;
+        margin: unset;
+    }
+}

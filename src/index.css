@@ -1,19 +1,37 @@
 @import url('style.css');
 
 .topbar {
-    background-image: url("https://i.imgur.com/quZiHmj.jpg");
-    background-size: cover;
-    background-position-y: center;
+    height: 38rem;
+    color: white;
 
-    height: 95vh;
-    width: 100%;
+    background-color: #464646;
 
     display: flex;
     align-content: center;
-    flex-direction: row-reverse;
     align-items: center;
 
     box-shadow: #4c4c4c 0px 0px 15px 0px;
+}
+
+.topbar-center {
+    display: flex;
+    width: 58rem;
+    margin: auto;
+}
+
+.profilepic {
+    height: 27rem;
+    width: auto;
+    border-radius: 40px;
+    margin-right: 2rem;
+}
+
+.name {
+    align-content: center;
+}
+
+.icon {
+    width: 40px;
 }
 
 .legend {
@@ -42,8 +60,7 @@
 }
 
 .introblock {
-    padding: 5rem 10rem;
-    user-select: none;
+    padding: 5rem 0;
 }
 
 .continuereading a {
@@ -62,18 +79,18 @@
 }
 
 .footer-link-area a {
-    color: black;
+    color: white;
 }
 
 .footer-link-area a:hover {
-    color: rgb(77, 77, 77);
+    filter: invert(0.2);
 }
 
 .img-footer-link:hover {
-    filter: invert(0.7);
+    filter: invert(0.2);
 }
 
-.footer-link > svg , img {
+.footer-link > svg , .footer-link > img {
     margin-right: 1rem;
     width: 60px;
 }
@@ -83,12 +100,37 @@
 	background-image: url("https://i.imgur.com/NkMdwx0.png");
 	background-size: 60px 60px;
 	margin-top: 4.6px;
-	filter: invert(1);
+}
+
+.section {
+    width: 63rem;
+    margin: auto;
 }
 
 @media only screen and (max-width: 768px) {
     .topbar {
-        height: 58vh !important;
+        height: unset !important;
+        min-height: 60rem !important;
+    }
+    .topbar-center {
+        flex-direction: column; /* stack vertically */
+        align-items: center;    /* center items horizontally */
+        text-align: center;     /* center text for better look */
+    }
+
+    .profilepic {
+        margin-right: 0;  /* remove side margin */
+        margin-bottom: 1rem; /* add space below the image */
+        height: auto; /* optional: make it scale naturally */
+        max-width: 80%; /* avoid overflowing screen */
+    }
+
+    .name {
+        align-content: center;
+    }
+    .topbar-center {
+        display: flex;
+        width: 90vw;
     }
     .legend .simple {
         font-size: 2rem;
@@ -117,5 +159,12 @@
     }
     .footer-link {
         display: contents;
+    }
+    .footer-link-area {
+        justify-content: center;
+    }
+    .section {
+        width: unset;
+        margin: unset;
     }
 }

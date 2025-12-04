@@ -7,7 +7,7 @@ Personal website using plain HTML/CSS. No frameworks, no dependencies, no pain.
 
 # Main page
 
-![Main page](https://i.imgur.com/F3Y0hCf.png)
+![Main page](https://i.imgur.com/vSrpxau.png)
 
 # Blog pages
 
@@ -17,4 +17,4 @@ Personal website using plain HTML/CSS. No frameworks, no dependencies, no pain.
 
 With the script [`dango.js`](https://github.com/nuriofernandez/nurio.me/blob/master/src/dango-party/js/dango.js) the page plays the best song of the world and shows the best thing in the world falling around when someone types `dango` anywhere in the website.
 
-![Dango daikazoku preview](https://github.com/nuriofernandez/nurio.me/assets/8858331/e18c37f2-2ee8-4948-8d26-cb72d27f0924)
+![Dango daikazoku preview](https://github.com/user-attachments/assets/70d14cb0-b4f1-4c3e-aae9-9a88b9b6fc3a)

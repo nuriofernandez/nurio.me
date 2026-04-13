@@ -140,6 +140,18 @@
     margin: 0;
 }
 
+@media only screen and (min-width: 769px) {
+    .project-title-row {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .project-title-row .title {
+        flex: 1;
+        min-width: 0;
+    }
+}
+
 .project-visit-btn {
     display: inline-flex;
     align-items: center;

@@ -87,6 +87,22 @@
     flex-shrink: 0;
     width: 45%;
     display: block;
+    position: relative;
+}
+
+.project-period {
+    position: absolute;
+    bottom: 0;
+    left: -1px;
+    background: #111;
+    color: #ccc;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.6rem;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 12px;
+    pointer-events: none;
 }
 
 .project-banner {
@@ -145,6 +161,23 @@
     background: #3a3a3a;
     border-color: #888;
     color: #ffffff;
+}
+
+.project-discontinued-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.35rem 0.9rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    background: #2a1f00;
+    border: 1px solid #8a6000;
+    color: #c98a00;
+    cursor: default;
+    user-select: none;
 }
 
 .project-showcase .title {

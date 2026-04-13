@@ -184,6 +184,13 @@
     color: white;
 }
 
+.project-subtitle {
+    font-size: 0.82rem;
+    color: #666;
+    margin: -0.3rem 0 0.6rem;
+    letter-spacing: 0.04em;
+}
+
 .project-showcase .content {
     color: #c0c0c0;
 }

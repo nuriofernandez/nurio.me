@@ -68,6 +68,14 @@
     color: white;
 }
 
+.project-showcase-alt {
+    background: #141414;
+}
+
+.project-layout-reverse {
+    flex-direction: row-reverse;
+}
+
 .project-layout {
     display: flex;
     flex-direction: row;
